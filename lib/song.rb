@@ -27,7 +27,7 @@ class Song
     
     @@genres = genre_count.keys
   end
-  self.artists
+  self.arti
     artist_count = Hash.new(0)
     binding.pry
     @@artists.each do |artist|
