@@ -30,7 +30,6 @@ class Song
   def self.artists
     artist_count = Hash.new(0)
     @@artists.each do |artist|
-      binding.pry
       artist_count[artist] +=1
     end
     @@artists = artist_count.keys
