@@ -15,14 +15,14 @@ class Song
     
     @@count
   end
-  # def self.genres 
-  #   genre_count = Hash.new(0)
-  #   @@genres.each do |genre|
-  #     genre_count[genre] +=1
-  #   end
+  def self.genres 
+    genre_count = Hash.new(0)
+    @@genres.each do |genre|
+      genre_count[genre] +=1
+    end
     
-  #   @@genres = genre_count
-  # end
+    @@genres = genre_count
+  end
   # self.artists
     
   # end
