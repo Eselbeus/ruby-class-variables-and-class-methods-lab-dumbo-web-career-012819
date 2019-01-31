@@ -15,7 +15,6 @@ class Song
     @@count += 1
   end
   def self.count
-    
     @@count
   end
   def self.genres 
@@ -26,9 +25,9 @@ class Song
     
     @@genres = genre_count.keys
   end
-  # self.artists
+  self.artists
     
-  # end
+  end
   # self.genre_count
   
   # end
