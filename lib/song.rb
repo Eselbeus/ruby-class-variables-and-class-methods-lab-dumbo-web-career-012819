@@ -23,15 +23,15 @@ class Song
     
   #   @@genres = genre_count
   # end
-  self.artists
+  # self.artists
     
-  end
-  self.genre_count
+  # end
+  # self.genre_count
   
-  end
-  self.artist_count
+  # end
+  # self.artist_count
     
-  end
+  # end
   
   
 end
