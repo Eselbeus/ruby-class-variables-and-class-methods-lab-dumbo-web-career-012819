@@ -28,6 +28,7 @@ class Song
     end
     @@genres = genre_count.keys
     @@genre_count = genre_count
+    @@genres
   end
   
   def self.artists
@@ -37,6 +38,7 @@ class Song
     end
     @@artists = artist_count.keys
     @@artist_count = artist_count
+    @@artists
   end
   
   def self.genre_count
