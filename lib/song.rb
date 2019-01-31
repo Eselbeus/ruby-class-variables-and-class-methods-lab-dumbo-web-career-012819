@@ -2,7 +2,6 @@ require 'pry'
 
 class Song 
   attr_accessor :name, :artist, :genre
-  binding.pry
   @@count = 0
   @@genres = []
   @@artists = []
@@ -27,20 +26,20 @@ class Song
     
     @@genres = genre_count.keys
   end
-  self.artists
-  binding.pry
+  def self.artists
+  
     artist_count = Hash.new(0)
-    binding.pry
+    
     @@artists.each do |artist|
       artists_count[artist] +=1
     end
     
     @@artists = artist_count.keys
   end
-  self.genre_count
+  def self.genre_count
   
   end
-  self.artist_count
+  def self.artist_count
     
   end
   
