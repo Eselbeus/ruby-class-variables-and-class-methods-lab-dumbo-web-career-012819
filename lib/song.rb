@@ -24,7 +24,7 @@ class Song
       genre_count[genre] +=1
     end
     
-    @@genres = genre_count
+    @@genres = genre_count.keys
   end
   # self.artists
     
